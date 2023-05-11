@@ -1,0 +1,14 @@
+
+target 'IsThatSanta' do
+  use_frameworks!
+  
+  pod 'TensorFlowLiteSwift'
+
+  target 'IsThatSantaTests' do
+    inherit! :search_paths
+  end
+
+  target 'IsThatSantaUITests' do
+  end
+
+end
